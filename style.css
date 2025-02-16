@@ -1,0 +1,221 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: rgb(0, 0, 33);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(37, 37, 128);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(138, 118, 238);
+            font-size: 1.01rem;
+        }
+
+        main hr {
+            border: 0;
+            background: rgb(171, 128, 236);
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 3rem;
+            margin: 70px 0;
+        }
+
+        .rightSection img {
+            width: 80%;
+            margin: 50px 0;
+        }
+
+        .purple {
+            color: rgb(166, 31, 194);
+        }
+
+        #element {
+            color: rgb(166, 31, 194);
+        }
+
+        .buttons {
+            margin-top: 20px;
+        }
+
+        .btn {
+            padding: 12px;
+            background: #0b0c37;
+            color: white;
+            border: 2px solid white;
+            border-radius: 5px;
+            font-size: 20px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+
+        .btn:hover {
+            background: white;
+            color: #0b0c37;
+        }
+
+        .workExperience {
+            max-width: 80vw;
+            margin: 60px auto;
+            padding: 30px;
+            background: linear-gradient(135deg, rgba(20, 20, 50, 0.9), rgba(50, 50, 100, 0.9));
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+            text-align: center;
+        }
+
+        .workExperience ul {
+            text-align: left;
+            display: block;
+            margin: 20px auto;
+            padding-left: 30px;
+            max-width: 80%;
+        }
+
+        .workExperience ul li {
+            padding-left: 10px;
+            text-indent: -10px;
+        }
+
+        .workExperience h3 {
+            margin-top: 20px;
+        }
+
+
+        footer {
+            background-color: rgb(7, 4, 26);
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+
+        }
+
+        /* Modal Styling */
+        /* Modal Styling */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .modal-left h2 {
+            font-size: 2rem; /* Increase the Projects heading size */
+            font-weight: bold;
+        }
+
+        .modal-left h3 {
+            font-size: 1.5rem; /* Makes the project title larger */
+            font-weight: semi-bold;
+        }
+
+        .modal-content {
+            background-color: #1a1a3d;
+            color: white;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 50%;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+        }
+
+        .modal-content p,
+        .modal-content ul li {
+            font-size: 1.4rem;
+            /* Adjust the size as needed */
+            line-height: 1.6;
+        }
+
+        #aboutModal 
+        .modal-content {
+            width: 45%; /* Increase width for a balanced look */
+            max-height: none; /* Remove height restrictions */
+            padding: 15px; /* Maintain good spacing */
+            font-size: 0.9rem; /* Adjust text size */
+        }
+        
+        /* Reduce text sizes for better fit */
+        #aboutModal 
+        .modal-content h2 {
+            font-size: 1.5rem; /* Match Contact Me heading size */
+        }
+        
+        #aboutModal 
+        .modal-content p {
+            font-size: 1.3rem; /* Match Contact Me paragraph text size */
+            line-height: 1.5; /* Improve readability */
+        }
+        
+
+        #aboutModal 
+        .modal-left img {
+            width: 120px; /* Adjust width (Change as needed) */
+            height: auto; /* Maintain aspect ratio */
+            display: block;
+            margin: 10px auto; /* Center the image */
+            border-radius: 50%; /* Optional: Makes it circular */
+        }
+        
+
+        .close {
+            color: white;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+   
