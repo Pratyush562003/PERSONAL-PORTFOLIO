@@ -63,16 +63,17 @@
         <div class="footer">
             <div class="footer-first">
                 <h3>Pratyush's Developer Portfolio</h3>
-
             </div>
             <div class="footer-rights">
                 Copyright &#169; pratyportfolio.com | All Rights Reserved
             </div>
+            <div class="visitor-counter">
+                <h3>Website Visits:</h3>
+                <p id="visitCount">Loading...</p>
+            </div>
+        </div>
     </footer>
-
     
-
-
 
     <!--About Modal -->
     <div id="aboutModal" class="modal">
@@ -96,7 +97,7 @@
             <span class="close">&times;</span>
             <div class="modal-left">
                 <h2 style="text-decoration: underline; margin-bottom: 20px;">Projects</h2>
-                <h3>Pothole Detection System</h3>
+                <h3>| Pothole Detection System |</h3>
                 <ul style="text-align: left; padding-left: 20px;">
                     <li>Utilized YOLOv8 (You Only Look Once), a state-of-the-art object detection framework, to identify
                         and classify potholes in real-time from video feeds and images with high accuracy.</li>
@@ -107,6 +108,32 @@
                         <strong>Project Link:</strong> <a
                             href="https://github.com/Pratyush562003/Pothole-Detection-System.git" target="_blank"
                             style="color: lightblue;">https://github.com/Pratyush562003/Pothole-Detection-System.git</a>
+                    </li>
+                </ul>
+
+                <h3>| Personal Portfolio |</h3>
+                <ul style="text-align: left; padding-left: 20px;">
+                    <li>Designed and developed a responsive personal portfolio website using HTML, CSS, and JavaScript.</li>
+                    <li>Integrated downloadable CV functionality and links to GitHub, LinkedIn, and social media platforms.</li>
+                    <li>Hosted the website on GitHub and Vercel for easy accessibility.</li>
+                    <li>
+                        <strong>Website URL:</strong> <a
+                            href="https://vercel.com/pratyushs-projects-00c4c11b/personal-portfolio" target="_blank"
+                            style="color: lightblue;">View Portfolio</a>
+                    </li>
+                </ul>
+
+                <h3>| Weather Website |</h3>
+                <ul style="text-align: left; padding-left: 20px;">
+                    <li>Developed a real-time weather website using HTML, CSS, and JavaScript.</li>
+                    <li>Integrated a Weather API to fetch live weather data based on user input location/city.</li>
+                    <li>Designed a clean, user-friendly UI with a background image to enhance interaction.</li>
+                    <li>Ensured mobile responsiveness for seamless usage across different devices.</li>
+                    <li>Implemented error handling for invalid locations and API request failures.</li>
+                    <li>
+                        <strong>Website URL:</strong> <a
+                            href="https://vercel.com/pratyushs-projects-00c4c11b/simple-weather-website" target="_blank"
+                            style="color: lightblue;">View Weather Website</a>
                     </li>
                 </ul>
             </div>
@@ -123,12 +150,20 @@
                     <li>
                         <img src="phone.png" alt="Phone"
                             style="width: 20px; vertical-align: middle; margin-right: 10px;">
-                        <strong>Phone:</strong> +91 9830737945
+                            <strong>Phone:</strong> 
+                            <a href="tel:+919830737945" style="color: lightblue; text-decoration: none;">
+                                +91 9830737945
+                            </a>
+                            
                     </li>
                     <li>
                         <img src="email.png" alt="Email"
                             style="width: 20px; vertical-align: middle; margin-right: 10px;">
-                        <strong>Email:</strong> pratyush2003sarkar@gmail.com
+                            <strong>Email:</strong> 
+                            <a href="mailto:pratyush2003sarkar@gmail.com" style="color: lightblue; text-decoration: none;">
+                                pratyush2003sarkar@gmail.com
+                            </a>
+                            
                     </li>
                     <li>
                         <img src="linkedin.png" alt="LinkedIn"
@@ -140,7 +175,6 @@
             </div>
         </div>
     </div>
-
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
@@ -168,11 +202,6 @@
             setupModal("contactBtn", "contactModal");
         });
     </script>
-
-
-
-
-
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
