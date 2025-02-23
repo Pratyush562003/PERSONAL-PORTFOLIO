@@ -24,13 +24,8 @@ document.addEventListener("DOMContentLoaded", function () {
     window.onload = function() {
         document.body.style.zoom = "80%"; // Sets zoom to 50%
     };
-    // visit logic
-    fetch('https://api.countapi.xyz/update/pratyush-portfolio/visits/?amount=1')
-        .then(res => res.json())
-        .then(data => {
-            document.getElementById("visitCount").innerText = data.value; // Update visit count
-        })
-        .catch(err => console.error("Error fetching visit count:", err));
+
+    
     
     
 });
